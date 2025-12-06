@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "user_id": "u001",
+      "name": "Ayaan",
+      "ratings": {
+        "m001": 5,
+        "m002": 4,
+        "m003": null
+      },
+      "friends": ["u002", "u004"]
+    },
+    {
+      "user_id": "u002",
+      "name": "Fatima",
+      "ratings": {
+        "m001": 4,
+        "m003": 2,
+        "m005": 5
+      },
+      "friends": ["u001", "u003", ""]
+    },
+    {
+      "user_id": "u003",
+      "name": "Kabir",
+      "ratings": {
+        "m002": 5,
+        "m004": 3,
+        "m005": null
+      },
+      "friends": ["u002"]
+    },
+    {
+      "user_id": "u004",
+      "name": "Zara",
+      "ratings": {},
+      "friends": ["u001"]
+    }
+  ],
+  "movies": [
+    {
+      "movie_id": "m001",
+      "title": "Inception",
+      "genres": ["Sci-Fi", "Thriller"],
+      "tags": ["dream", "heist", "mind-bending"]
+    },
+    {
+      "movie_id": "m002",
+      "title": "The Dark Knight",
+      "genres": ["Action", "Drama"],
+      "tags": ["Batman", "JOKER", "crime"]
+    },
+    {
+      "movie_id": "m003",
+      "title": "Interstellar",
+      "genres": "Sci-Fi, Adventure",
+      "tags": ["space", "Time", "Wormhole"]
+    },
+    {
+      "movie_id": "m004",
+      "title": "The Social Network",
+      "genres": ["Biography", "Drama"],
+      "tags": null
+    },
+    {
+      "movie_id": "m005",
+      "title": "Parasite",
+      "genres": ["Drama", "Thriller"],
+      "tags": ["class", "family", "twist"]
+    },
+    {
+      "movie_id": "m005",
+      "title": "Parasite",
+      "genres": ["drama", "Thriller"],
+      "tags": ["Class", "family", "twist"]
+    }
+  ]
+}
